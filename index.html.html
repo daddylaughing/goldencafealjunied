@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Golden Cafe Aljunied - Your Golden Opportunity Awaits</title>
+  <style>
+    /* Base Colours */
+    :root {
+      --primary-purple: #9d1d64;
+      --accent-gold: #cda176;
+      --text-color: #333;
+      --light-gray: #f5f5f5;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: var(--text-color);
+      background-color: var(--light-gray);
+      line-height: 1.6;
+    }
+
+    /* Hero Section with Background Image */
+    header {
+      position: relative;
+      background: url('115GCAExt.jpg') center center no-repeat;
+      background-size: cover;
+      color: #fff;
+      padding: 60px 20px;
+      text-align: center;
+      overflow: hidden; /* Ensures overlay covers the entire header */
+    }
+    /* Overlay to maintain text visibility */
+    header::before {
+      content: '';
+      position: absolute;
+      top: 0; 
+      left: 0; 
+      right: 0; 
+      bottom: 0;
+      background: linear-gradient(
+        135deg,
+        rgba(157, 29, 100, 0.3),
+        rgba(205, 161, 118, 0.3)
+      );
+      z-index: 1;
+    }
+    /* Positioning the text above the overlay */
+    .header-content {
+      position: relative;
+      z-index: 2;
+    }
+    header h1 {
+      margin-bottom: 10px;
+      font-size: 2.8rem;
+    }
+    header p {
+      font-size: 1.2rem;
+    }
+
+    .container {
+      max-width: 1200px;
+      margin: auto;
+      padding: 20px;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    .section-title {
+      color: var(--primary-purple);
+      font-size: 2rem;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .content {
+      font-size: 1rem;
+      line-height: 1.8;
+      text-align: justify;
+    }
+
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-top: 30px;
+    }
+
+    .feature {
+      flex: 1;
+      min-width: 280px;
+      background-color: #fff;
+      border-left: 5px solid var(--accent-gold);
+      padding: 20px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .cta a {
+      background-color: var(--accent-gold);
+      color: var(--primary-purple);
+      padding: 15px 30px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .cta a:hover {
+      background-color: var(--primary-purple);
+      color: #fff;
+    }
+
+    /* Video Section Styles */
+    .video-section {
+      background-color: #fff;
+      padding: 20px;
+      border: 1px solid #ddd;
+      margin-top: 20px;
+      text-align: center;
+      font-style: italic;
+      color: #777;
+    }
+
+    /* Style for embedded video */
+    .video-section iframe {
+      width: 100%;
+      height: 315px;
+      border: none;
+    }
+
+    footer {
+      background-color: var(--primary-purple);
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      header h1 { font-size: 2.2rem; }
+      .section-title { font-size: 1.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header>
+    <div class="header-content">
+      <h1>Golden Cafe Aljunied</h1>
+      <p>Discover the Golden Opportunity in F&B Stall Rentals!</p>
+    </div>
+  </header>
+
+  <div class="container">
+    <!-- Introduction -->
+    <section id="introduction">
+      <h2 class="section-title">Discover the Golden Opportunity</h2>
+      <p class="content">
+        Are you ready to elevate your culinary expertise? Golden Cafe Aljunied at 115 Aljunied Road isn’t just another food spot—it’s a revolutionary concept redefining dining in a vibrant precinct. We blend diverse cuisines, live entertainment, and innovative marketing collaborations under one roof.
+      </p>
+    </section>
+
+    <!-- Why Choose Us -->
+    <section id="why-choose">
+      <h2 class="section-title">Why Choose Golden Cafe Aljunied?</h2>
+      <div class="features">
+        <div class="feature">
+          <h3>A Unique Culinary Landscape</h3>
+          <p>
+            We bring diversity to Aljunied’s food scene by curating stalls that offer distinct flavours. Say goodbye to oversaturation and hello to a world of taste adventures!
+          </p>
+        </div>
+        <div class="feature">
+          <h3>All-Day Dining with a Twist</h3>
+          <p>
+            By day, enjoy traditional Kopi, Teh, Toast, Nasi Padang, Dim Sum, and healthy Vietnamese Pho. As night falls, transform your experience with a beer garden vibe offering Satay, Mookata, and 五香虾饼.
+          </p>
+        </div>
+        <div class="feature">
+          <h3>Marketing That Works for You—FREE!</h3>
+          <p>
+            Boost your brand with weekly social media campaigns, flash deals, and targeted outreach. Reach the residents within a 1 km radius and watch your business grow.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Daytime Delights & Nighttime Vibes -->
+    <section id="dining-experience">
+      <h2 class="section-title">Experience Our Dual Vibes</h2>
+      <div class="features">
+        <!-- Daytime Delights -->
+        <div class="feature">
+          <h3>Daytime Delights</h3>
+          <p>
+            Kickstart your day with our traditional Kopi and Teh, Toast, and more.
+          </p>
+          <div class="video-section">
+            <!-- Replace DAYTIME_VIDEO_URL with your actual video URL or embed code -->
+            <iframe 
+              src="day-vibes.mp4" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+        <!-- Nighttime Vibes -->
+        <div class="feature">
+          <h3>Nighttime Vibes</h3>
+          <p>
+            As the sun sets, our space transforms into a lively beer garden.
+          </p>
+          <div class="video-section">
+            <!-- Replace NIGHTTIME_VIDEO_URL with your actual video URL or embed code -->
+            <iframe 
+              src="night-vibes.mp4" 
+              allowfullscreen>
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Live Entertainment & Location -->
+    <section id="entertainment-location">
+      <h2 class="section-title">Live Entertainment & Prime Location</h2>
+      <p class="content">
+        Golden Cafe Aljunied isn’t just about food—it’s an experience. With our upcoming Public Entertainment License, live music, local talents, and buskers will elevate your brand. Plus, our strategic location near lush greenery and fitness facilities ensures a steady flow of patrons.
+      </p>
+    </section>
+
+    <!-- Full Support -->
+    <section id="full-support">
+      <h2 class="section-title">Full Support, Every Step of the Way</h2>
+      <p class="content">
+        We’re more than a rental space. We’re your partners in success, providing full support, collaborative opportunities, and a community that thrives on creativity and culture.
+      </p>
+    </section>
+
+    <!-- Call-to-Action -->
+    <section id="cta" class="cta">
+      <p class="content" style="font-weight: bold;">
+        Spaces are limited, and demand is high. Ready to join the revolution?
+      </p>
+      <a href="https://wa.me/+6588411325" target="_blank">Chat with us on WhatsApp</a>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 Golden Cafe Aljunied. All Rights Reserved.
+  </footer>
+  
+</body>
+</html>
